@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #1e2a3a;
+}
+
+.header {
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f3a5f;
+}
+
+.header div {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.hero {
+  background: #1f3a5f;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 35px;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.btn {
+  display: inline-block;
+  background: #0d6efd;
+  color: white;
+  padding: 14px 36px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #0b5ed7;
+}
+
+section {
+  padding: 100px 60px;
+}
+
+.section-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1f3a5f;
+}
+
+.about {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  color: #444;
+}
+
+.feedback {
+  background: #f4f6fb;
+  text-align: center;
+}
+
+.feedback p {
+  margin-bottom: 20px;
+}
+
+.feedback textarea {
+  width: 100%;
+  max-width: 420px;
+  height: 120px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  width: 260px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  font-size: 15px;
+}
+
+footer {
+  background: #1f3a5f;
+  color: white;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer h2 {
+  font-size: 36px;
+}
+
+footer div {
+  margin-top: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-top: 8px;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 30px;
+  }
+
+  section {
+    padding: 80px 25px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
